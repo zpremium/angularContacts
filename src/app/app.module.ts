@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http'
 
 import { AppComponent } from './app.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,7 +14,8 @@ import { ContactListComponent } from './contact-list/contact-list.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
